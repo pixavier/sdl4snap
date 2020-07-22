@@ -7,7 +7,7 @@ SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the SDL mo
 
 Import (select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*):
 
-    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
+    https://raw.githubusercontent.com/pixavier/sdl4snap/master/sdl-standalone.xml
 
 ##
 Here you can see the blocks and a simple example to test:
