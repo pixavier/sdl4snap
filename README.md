@@ -10,6 +10,8 @@ The PingPong example can be considered the "Hello World" of a SDL based multi-ag
 
 ![PingPong SDL model](img/ping_pong_sdl.png)
 
+[UMLetino](https://www.umletino.com) file of the SDL model is downloadable [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf).
+
 ## Usage and blocks
 
 If you want just load the SDL4Snap *!* blocks library, select and copy the following URL into the clipboard, and then paste it into the file/URL Snap *!*  import pop-up textfield:
