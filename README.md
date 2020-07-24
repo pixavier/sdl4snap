@@ -5,6 +5,9 @@ SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the SDL mo
 
 ## Usage and blocks
 
+A running example can be found [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong.xml).  
+
+
 Import (select and copy the following URL to the clipboard, and then paste it when importing into Snap *!*):
 
     https://raw.githubusercontent.com/pixavier/sdl4snap/master/sdl-standalone.xml
