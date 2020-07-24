@@ -23,7 +23,7 @@ Here you can see the Snap *!* translation of the PingPong example.
 ![Minimal example](img/ping_pong_snap.png)
 
 
-### Using PubSub architecture to support messaging *!*
+### Using PubSub architecture to support messaging
 
 The scheme of processes communication is described in [this](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial.
 SDL4Snap *!* uses MQTT as the base mechanism to support distributed messaging. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension has been used for this purpose.
