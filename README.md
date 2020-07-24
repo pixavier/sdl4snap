@@ -10,7 +10,7 @@ The PingPong example can be considered the "Hello World" of a SDL based multi-ag
 
 ![PingPong SDL model](img/ping_pong_sdl.png)
 
-[UMLetino](https://www.umletino.com) file of the SDL model is downloadable [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf).
+[UMLetino](https://www.umletino.com) file of the SDL model is downloadable (Save as ...) [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf).
 
 ## Usage and blocks
 
