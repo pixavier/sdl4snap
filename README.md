@@ -2,8 +2,7 @@
 
 SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the SDL modeling language [SDL](http://www.sdl-forum.org/SDL) in [Snap *!*](http://snap.berkeley.edu) and [Snap4Arduino](http://snap4arduino.rocks).
 
-
-## Running an example
+## Hello World!
 
 The PingPong example can be considered the "Hello World" of a SDL based multi-agent system. A running example of it can be found [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong.xml).  
 
@@ -26,8 +25,8 @@ Here you can see the Snap *!* translation of the PingPong example.
 
 ### Using PubSub architecture to support messaging *!*
 
-The scheme of processes communication is described in (this)[https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm] SDL Tutorial.
-SDL4Snap *!* uses MQTT as the base mechanism to support distributed messaging. The (MQTT4Snap *!*)[https://github.com/pixavier/mqtt4snap] extension has been used for this purpose.
+The scheme of processes communication is described in [this](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial.
+SDL4Snap *!* uses MQTT as the base mechanism to support distributed messaging. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension has been used for this purpose.
  
 ![Process communication](img/ProcessCommunication.png)
 
