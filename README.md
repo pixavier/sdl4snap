@@ -23,7 +23,7 @@ If you want just load the SDL4Snap *!* blocks library, select and copy the follo
 Here you can see the Snap *!* translation of the PingPong example.
 ###
 
-![Minimal example](img/ping_pong_snap.png)
+<!-- ![Minimal example](img/ping_pong_snap.png)  -->
 
 
 ### Using PubSub architecture to support distributed messaging
