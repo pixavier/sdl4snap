@@ -4,8 +4,9 @@ SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the SDL mo
 
 ## Hello World!
 
-The PingPong example can be considered the "Hello World" of a SDL based multi-agent system. An online runnable example can be found [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong.xml).  
-Local messages version is also available [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong_local.xml)
+The PingPong example can be considered the **["Hello World"](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong_local.xml) of a SDL based multi-agent system. An online runnable example can be found [here]https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong_local.xml.  
+Distributed MQTT based version is also available [here]
+(https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong.xml)
 
 ## PingPong SDL model
 
