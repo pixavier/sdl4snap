@@ -15,9 +15,9 @@ A Distributed MQTT based version is also available [here](https://snap.berkeley.
 
 ## Usage and blocks
 
-If you want just load the SDL4Snap *!* blocks library, select and copy the following URL into the clipboard, and then paste it into the file/URL Snap *!*  import pop-up textfield:
-
-    https://raw.githubusercontent.com/pixavier/sdl4snap/master/sdl-standalone.xml
+Start from the HelloWorld example, and delete the blocks you will not use. Each agent (sprite) has some atributes (local variables) that are needed by the SDL engine, such as "SDL signal input queue", "SDL state" and "SDL transition ended".
+If you are developing a non distributed system (no network), use always the block "SDL send local signal" instead "SDL send signal" (the last one uses MQTT).
+To create new processes, duplicate a similar one instead creating it from scratch.
 
 ##
 Here you can see the Snap *!* translation of the PingPong example.
