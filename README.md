@@ -26,7 +26,7 @@ To create new processes, duplicate a similar one instead creating it from scratc
 Here you can see the Snap *!* translation of the PingPong example.
 ###
 
-<!-- ![Minimal example](img/ping_pong_snap.png)  -->
+[Ping Pong example](img/ping_pong_snap.png)
 
 
 ### Using PubSub architecture to support distributed messaging
