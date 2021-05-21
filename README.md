@@ -16,7 +16,7 @@ The PingPong example can be considered the ["Hello World"](https://en.wikipedia.
 ## Usage and blocks
 
 Start from the HelloWorld example, and delete the blocks you will not use. Each agent (sprite) has some atributes (local variables) that are needed by the SDL engine, such as "SDL signal input queue" and "SDL state".
-If you are developing a distributed system (on network), you can use the MQTT4Snap *!* "pub" and "sub" blocks, combined to the "send signal" block.
+
 To create new processes, duplicate a similar one instead creating it from scratch.
 
 ##
@@ -30,7 +30,7 @@ Here you can see the Snap *!* translation of the PingPong example.
 
 The scheme of processes communication is described in the classic SDL Forum [SDL-88 Tutorial](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial.
 
-SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension lets send/receive messages via the MQTT protocol, hence agents (blocks and processes) can run distributed among Snap *!* Internet-connected browsers.  
+SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension lets send/receive messages via the MQTT protocol, hence agents (blocks and processes) can run distributed among Snap *!* Internet-connected browsers. MQTT4Snap *!* "pub" and "sub" blocks, combined to the "send signal" block. 
  
 ![Process communication](img/ProcessCommunication.png)
 
