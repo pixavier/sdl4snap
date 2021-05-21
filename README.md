@@ -6,9 +6,6 @@ SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the modeli
 
 The PingPong example can be considered the ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of a SDL based multi-agent system. An online runnable example can be found [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong_local.xml).  
 
-SDL4Snap *!* can run in distributed mode using the [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) library, that lets send/receive messages via the MQTT protocol.
-[MQTT](https://en.wikipedia.org/wiki/MQTT) based systems can be combined with other protocols like [HTTP-REST](https://en.wikipedia.org/wiki/Representational_state_transfer) or [OPC-UA](https://opcfoundation.org/resources/brochures) with another no/low-code tools like [Node-RED](https://nodered.org).
-
 
 ## PingPong SDL model
 
@@ -32,9 +29,11 @@ Here you can see the Snap *!* translation of the PingPong example.
 ### Using PubSub architecture to support distributed messaging
 
 The scheme of processes communication is described in the classic SDL Forum [SDL-88 Tutorial](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial.
-SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension has been used for this purpose. With SDL4Snap *!*, agents (blocks and processes) can run distributed among Snap *!* Internet connected browsers.  
+
+SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [MQTT4Snap *!*](https://github.com/pixavier/mqtt4snap) extension lets send/receive messages via the MQTT protocol, hence agents (blocks and processes) can run distributed among Snap *!* Internet-connected browsers.  
  
 ![Process communication](img/ProcessCommunication.png)
 
+[MQTT](https://en.wikipedia.org/wiki/MQTT) based systems can be combined with other protocols like [HTTP-REST](https://en.wikipedia.org/wiki/Representational_state_transfer) or [OPC-UA](https://opcfoundation.org/resources/brochures) with another no/low-code tools like [Node-RED](https://nodered.org).
 
 
