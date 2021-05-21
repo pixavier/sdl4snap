@@ -19,7 +19,7 @@ SDL4Snap *!* can run in distributed mode using the [MQTT4Snap *!*](https://githu
 ## Usage and blocks
 
 Start from the HelloWorld example, and delete the blocks you will not use. Each agent (sprite) has some atributes (local variables) that are needed by the SDL engine, such as "SDL signal input queue" and "SDL state".
-If you are developing a non distributed system (no network), use always the block "SDL send local signal" instead "SDL send signal" (the last one uses MQTT).
+If you are developing a distributed system (on network), you can use the MQTT4Snap *!* "pub" and "sub" blocks, combined to the "send signal" block.
 To create new processes, duplicate a similar one instead creating it from scratch.
 
 ##
