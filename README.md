@@ -20,7 +20,7 @@ Start from the HelloWorld example, and delete the blocks you will not use. Each 
 To create new processes, duplicate a similar one instead creating it from scratch.
 
 ##
-Here you can see the Snap *!* translation of the PingPong example.
+Here you can see the Snap *!* translation of the PingPong example:
 ###
 
 ![Ping Pong Snap *!* implementation](img/ping_pong_snap.png)
