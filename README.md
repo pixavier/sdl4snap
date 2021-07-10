@@ -8,12 +8,19 @@ SDL4Snap *!*  is a Snap *!*  library with a minimal implementation of the modeli
 
 The PingPong example can be considered the ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of a SDL based multi-agent system. An online runnable example can be found [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong_local.xml).  
 
-
 ## PingPong SDL model
 
 ![PingPong SDL model](img/ping_pong_sdl.png)
 
-[UMLetino](https://www.umletino.com) file of the SDL model is downloadable (Save as ...) [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf).
+To import the PingPong SDL model into [UMLetino](https://www.umletino.com), select and copy the following URL to the clipboard, and then paste it when "File Import":
+
+    https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf
+
+
+If you just want to import the SDL palette into [UMLetino](https://www.umletino.com), select and copy the following URL to the clipboard, and then paste it when "File Import":
+
+    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
+
 
 ## Usage and blocks
 
