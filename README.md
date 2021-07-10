@@ -19,7 +19,7 @@ To import the PingPong SDL model into [UMLetino](https://www.umletino.com), copy
 
 If you just want to import the SDL palette into [UMLetino](https://www.umletino.com), copy the following URL to the clipboard, and then paste it when "File Import":
 
-    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
+    https://raw.githubusercontent.com/pixavier/mqtt4snap/master/palette/SDL.uxf
 
 
 ## Usage and blocks
