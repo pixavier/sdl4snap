@@ -12,12 +12,12 @@ The PingPong example can be considered the ["Hello World"](https://en.wikipedia.
 
 ![PingPong SDL model](img/ping_pong_sdl.png)
 
-To import the PingPong SDL model into [UMLetino](https://www.umletino.com), select and copy the following URL to the clipboard, and then paste it when "File Import":
+To import the PingPong SDL model into [UMLetino](https://www.umletino.com), copy the following URL to the clipboard, and then paste it when "File Import":
 
     https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/PingPong_SDL.uxf
 
 
-If you just want to import the SDL palette into [UMLetino](https://www.umletino.com), select and copy the following URL to the clipboard, and then paste it when "File Import":
+If you just want to import the SDL palette into [UMLetino](https://www.umletino.com), copy the following URL to the clipboard, and then paste it when "File Import":
 
     https://raw.githubusercontent.com/pixavier/mqtt4snap/master/mqtt-standalone.xml
 
