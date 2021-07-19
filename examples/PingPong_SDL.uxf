@@ -1,17 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="14.3.0">
-  <help_text/>
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>210</y>
-      <w>80</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>Process
-class
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text></help_text><element><id>Text</id><coordinates><x>330</x><y>70</y><w>80</w><h>40</h></coordinates><panel_attributes>Env
+fontsize=18
 halign=center
 valign=center
 customelement=
@@ -24,26 +12,55 @@ drawLine(width-8,0,width,8)
 drawLine(width,height-8,width-8,height)
 drawLine(8,height,0,height-8)
 
-drawLine(10,5,width-10,5)
-drawLine(5,10,5,height-10)
-drawLine(width-5,10,width-5,height-10)
-drawLine(10,height-5,width-10,height-5)
-drawLine(5,10,10,5)
-drawLine(width-10,5,width-5,10)
-drawLine(width-5,height-10,width-10,height-5)
-drawLine(10,height-5,5,height-10)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>380</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>State
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>490</x><y>70</y><w>80</w><h>40</h></coordinates><panel_attributes>pPing
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>490</x><y>190</y><w>80</w><h>40</h></coordinates><panel_attributes>pPong
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>70</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=&lt;-&gt;
+m1=
+m2=[mStart]
+
+		</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>100</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;-&gt;
+m1=[mPing]
+m2=[mPong]
+
+		</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>70</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+m1=[mStart, mStop]
+		</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>290</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,30,height,90,180,true)
+drawArc(width-30,0,30,height,-90,180,true)
+drawLine(15,0,width-15,0)
+drawLine(15,height,width-15,height)
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>330</x><y>340</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
 halign=center
 valign=center
 customelement=
@@ -52,18 +69,157 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Start
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>590</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>290</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>350</y><w>80</w><h>40</h></coordinates><panel_attributes>mStart
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>410</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
+pPong
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>380</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>470</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>440</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>290</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>350</y><w>80</w><h>40</h></coordinates><panel_attributes>mStop
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>350</y><w>80</w><h>40</h></coordinates><panel_attributes>mPong
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>750</x><y>350</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>320</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>380</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>320</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>250;30;250;20;10;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>320</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>130;30;130;20;10;20;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>410</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>470</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait TO
+SELF
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>530</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>500</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>750</x><y>410</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
+pPong
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>750</x><y>470</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>440</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>380</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>980</x><y>480</y><w>70</w><h>20</h></coordinates><panel_attributes>delay = 1s
+halign=left
+valign=top
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>940</x><y>480</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>80</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+fontsize=18
 halign=center
 valign=center
 customelement=
@@ -71,149 +227,108 @@ drawArc(0,0,30,height,90,180,true)
 drawArc(width-30,0,30,height,-90,180,true)
 drawLine(15,0,width-15,0)
 drawLine(15,height,width-15,height)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>10</x>
-      <y>500</y>
-      <w>90</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>type=actclass
-Procedure
-Call
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>40</x>
-      <y>680</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>type=termination</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>20</x>
-      <y>0</y>
-      <w>160</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-channelName 
-m1=[message]
-		</panel_attributes>
-    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>10</x>
-      <y>40</y>
-      <w>250</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-&gt;
-channelName 
-m1=[message 1a,\nmessage1b]
-m2=[message 2a\nmessage2b]
-
-		</panel_attributes>
-    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>100</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Process
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>190</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
 halign=center
 valign=center
 customelement=
-drawLine(8,0,width-8,0)
-drawLine(0,8,0,height-8)
-drawLine(width,8,width,height-8)
-drawLine(8,height,width-8,height)
-drawLine(0,8,8,0)
-drawLine(width-8,0,width,8)
-drawLine(width,height-8,width-8,height)
-drawLine(8,height,0,height-8)
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>10</x>
-      <y>270</y>
-      <w>90</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Note..
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>120</x>
-      <y>270</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>lt=.
-Note..
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>120</x>
-      <y>100</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Process
-lt=.
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>870</x><y>130</y><w>80</w><h>40</h></coordinates><panel_attributes>mStart TO
+pPing
 halign=center
 valign=center
 customelement=
-drawLine(8,0,width-8,0)
-drawLine(0,8,0,height-8)
-drawLine(width,8,width,height-8)
-drawLine(8,height,width-8,height)
-drawLine(0,8,8,0)
-drawLine(width-8,0,width,8)
-drawLine(width,height-8,width-8,height)
-drawLine(8,height,0,height-8)
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>120</x>
-      <y>210</y>
-      <w>80</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>Process
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>100</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>160</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>590</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>340</x><y>570</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,30,height,90,180,true)
+drawArc(width-30,0,30,height,-90,180,true)
+drawLine(15,0,width-15,0)
+drawLine(15,height,width-15,height)
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>340</x><y>620</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>310</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>570</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>600</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>320</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>630</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>750</y><w>80</w><h>40</h></coordinates><panel_attributes>mPong TO
+pPing
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>480</x><y>810</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+fontsize=18
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>780</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>690</y><w>120</w><h>40</h></coordinates><panel_attributes>fontsize=18
+type=actclass
+animatePing
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>840</x><y>40</y><w>140</w><h>30</h></coordinates><panel_attributes>*Env Process*
+fontsize=14
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>850</x><y>410</y><w>130</w><h>40</h></coordinates><panel_attributes>type=actclass
+animatePong
+fontsize=18
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>250</y><w>140</w><h>20</h></coordinates><panel_attributes>*pPing Process*
+fontsize=14
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>30</y><w>140</w><h>30</h></coordinates><panel_attributes>*Main Block*
+fontsize=14
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>530</y><w>140</w><h>30</h></coordinates><panel_attributes>*pPong Process*
+fontsize=14
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>440</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>380</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>660</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>720</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>720</x><y>670</y><w>90</w><h>40</h></coordinates><panel_attributes>idle</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>870</x><y>670</y><w>90</w><h>40</h></coordinates><panel_attributes>running</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>800</x><y>670</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>660</x><y>680</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>680</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>800</x><y>690</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>620</y><w>240</w><h>30</h></coordinates><panel_attributes>*pPing Process UML State Machine*
+fontsize=14
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>680</y><w>80</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
+</panel_attributes><additional_attributes>40;10;60;10;60;50;10;50;10;30</additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>250</y><w>80</w><h>50</h></coordinates><panel_attributes>Process
 class
-lt=.
 halign=center
 valign=center
 customelement=
@@ -234,18 +349,76 @@ drawLine(5,10,10,5)
 drawLine(width-10,5,width-5,10)
 drawLine(width-5,height-10,width-10,height-5)
 drawLine(10,height-5,5,height-10)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>330</y>
-      <w>70</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Start
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>420</y><w>80</w><h>40</h></coordinates><panel_attributes>State
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>370</y><w>70</w><h>30</h></coordinates><panel_attributes>Start
+halign=center
+valign=center
+customelement=
+drawArc(0,0,30,height,90,180,true)
+drawArc(width-30,0,30,height,-90,180,true)
+drawLine(15,0,width-15,0)
+drawLine(15,height,width-15,height)
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>540</y><w>90</w><h>40</h></coordinates><panel_attributes>type=actclass
+Procedure
+Call
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>60</x><y>720</y><w>20</w><h>20</h></coordinates><panel_attributes>type=termination
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>40</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+channelName 
+m1=[message]
+		
+group=1</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>30</x><y>80</y><w>250</w><h>60</h></coordinates><panel_attributes>lt=&lt;-&gt;
+channelName 
+m1=[message 1a,\nmessage1b]
+m2=[message 2a\nmessage2b]
+
+		
+group=1</panel_attributes><additional_attributes>10;20;230;20</additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>140</y><w>80</w><h>40</h></coordinates><panel_attributes>Process
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>30</x><y>310</y><w>90</w><h>40</h></coordinates><panel_attributes>Note..
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>140</x><y>310</y><w>70</w><h>40</h></coordinates><panel_attributes>lt=.
+Note..
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>140</x><y>140</y><w>80</w><h>40</h></coordinates><panel_attributes>Process
+lt=.
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>370</y><w>70</w><h>30</h></coordinates><panel_attributes>Start
 halign=center
 valign=center
 customelement=
@@ -255,40 +428,10 @@ drawLine(15,0,width-15,0)
 drawLine(15,height,width-15,height)
 drawLine(15,0,15, height)
 drawLine(width-15,0,width-15, height)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>70</x>
-      <y>680</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>type=flow_final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>120</x>
-      <y>670</y>
-      <w>30</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>10</x>
-      <y>680</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>halign=center
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>90</x><y>720</y><w>20</w><h>20</h></coordinates><panel_attributes>type=flow_final
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>140</x><y>710</y><w>30</w><h>30</h></coordinates><panel_attributes>type=decision
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>30</x><y>720</y><w>20</w><h>20</h></coordinates><panel_attributes>halign=center
 valign=center
 customelement=
 drawLine(0,0,width,0)
@@ -296,32 +439,12 @@ drawLine(0,height,width,height)
 drawLine(0,0,width,height)
 drawLine(0,height,width,0)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>100</x>
-      <y>680</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>customelement=
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>120</x><y>720</y><w>20</w><h>20</h></coordinates><panel_attributes>customelement=
 drawCircle(width/4,height/4, width/4)
 bg=black
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>10</x>
-      <y>560</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Send
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>30</x><y>600</y><w>80</w><h>40</h></coordinates><panel_attributes>Send
 signal
 halign=center
 valign=center
@@ -332,18 +455,8 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>150</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Procedure
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>190</y><w>80</w><h>40</h></coordinates><panel_attributes>Procedure
 halign=center
 valign=center
 customelement=
@@ -358,18 +471,8 @@ drawLine(8,height,0,height-8)
 drawLine(8,0,8,height)
 drawLine(width-8,0,width-8,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>440</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Comment
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>480</y><w>70</w><h>40</h></coordinates><panel_attributes>Comment
 halign=left
 valign=top
 customelement=
@@ -377,18 +480,8 @@ drawLine(0,0,width,0)
 drawLine(0,0,0,height)
 drawLine(0,height,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>500</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Comment
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>540</y><w>70</w><h>40</h></coordinates><panel_attributes>Comment
 lt=.
 halign=left
 valign=top
@@ -397,18 +490,8 @@ drawLine(0,0,width,0)
 drawLine(0,0,0,height)
 drawLine(0,height,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>560</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Block
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>600</y><w>70</w><h>40</h></coordinates><panel_attributes>Block
 halign=left
 valign=top
 customelement=
@@ -417,18 +500,8 @@ drawLine(0,0,0,height)
 drawLine(0,height,width,height)
 drawLine(width,0,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>20</x>
-      <y>440</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Messages
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>40</x><y>480</y><w>70</w><h>40</h></coordinates><panel_attributes>Messages
 halign=center
 valign=center
 customelement=
@@ -437,18 +510,8 @@ drawLine(0,0,0,height)
 drawLine(0,height,width,height)
 drawLine(width,0,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>110</x>
-      <y>150</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>     Comments
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>190</y><w>100</w><h>40</h></coordinates><panel_attributes>     Comments
 halign=left
 valign=top
 customelement=
@@ -457,18 +520,8 @@ drawLine(18,0,0,height)
 drawLine(0,height,width-18,height)
 drawLine(width,0,width-18,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>620</y>
-      <w>70</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Task
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>660</y><w>70</w><h>40</h></coordinates><panel_attributes>Task
 halign=center
 valign=center
 customelement=
@@ -479,18 +532,8 @@ drawLine(0,height,width,height)
 drawLine(0,height-5,width,height-5)
 drawLine(width,0,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>130</x>
-      <y>380</y>
-      <w>70</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>messages
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>150</x><y>420</y><w>70</w><h>30</h></coordinates><panel_attributes>messages
 halign=center
 valign=center
 customelement=
@@ -501,18 +544,8 @@ drawLine(0,height,10,height)
 drawLine(width-10,height,width,height)
 drawLine(width,0,width,height)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>10</x>
-      <y>620</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Receive
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>30</x><y>660</y><w>80</w><h>40</h></coordinates><panel_attributes>Receive
 signal
 halign=center
 valign=center
@@ -524,19 +557,12 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>420</x>
-      <y>90</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>Env
-fontsize=18
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>30</y><w>40</w><h>60</h></coordinates><panel_attributes>lt=-
+		
+group=1</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Text</id><coordinates><x>140</x><y>250</y><w>80</w><h>50</h></coordinates><panel_attributes>Process
+class
+lt=.
 halign=center
 valign=center
 customelement=
@@ -549,1048 +575,13 @@ drawLine(width-8,0,width,8)
 drawLine(width,height-8,width-8,height)
 drawLine(8,height,0,height-8)
 
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>580</x>
-      <y>90</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>pPing
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(8,0,width-8,0)
-drawLine(0,8,0,height-8)
-drawLine(width,8,width,height-8)
-drawLine(8,height,width-8,height)
-drawLine(0,8,8,0)
-drawLine(width-8,0,width,8)
-drawLine(width,height-8,width-8,height)
-drawLine(8,height,0,height-8)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>580</x>
-      <y>210</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>pPong
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(8,0,width-8,0)
-drawLine(0,8,0,height-8)
-drawLine(width,8,width,height-8)
-drawLine(8,height,width-8,height)
-drawLine(0,8,8,0)
-drawLine(width-8,0,width,8)
-drawLine(width,height-8,width-8,height)
-drawLine(8,height,0,height-8)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>490</x>
-      <y>90</y>
-      <w>110</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-&gt;
-m1=
-m2=[mStart]
-
-		</panel_attributes>
-    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>610</x>
-      <y>120</y>
-      <w>80</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-&gt;
-m1=[mPing]
-m2=[mPong]
-
-		</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>650</x>
-      <y>90</y>
-      <w>150</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-m1=[mStart, mStop]
-		</panel_attributes>
-    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>420</x>
-      <y>310</y>
-      <w>80</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Start
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,30,height,90,180,true)
-drawArc(width-30,0,30,height,-90,180,true)
-drawLine(15,0,width-15,0)
-drawLine(15,height,width-15,height)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>420</x>
-      <y>360</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>460</x>
-      <y>610</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>310</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>370</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mStart
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-drawLine(width-18,height/2,width,0)
-drawLine(width-18,height/2,width,height)
-
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>430</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mPing TO
-pPong
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width-18,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width-18,height)
-drawLine(width,height/2,width-18,0)
-drawLine(width,height/2,width-18,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>400</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>490</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>running
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>720</x>
-      <y>310</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>running
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>720</x>
-      <y>370</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mStop
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-drawLine(width-18,height/2,width,0)
-drawLine(width-18,height/2,width,height)
-
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>370</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mPong
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-drawLine(width-18,height/2,width,0)
-drawLine(width-18,height/2,width,height)
-
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>840</x>
-      <y>370</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>tWait
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-drawLine(width-18,height/2,width,0)
-drawLine(width-18,height/2,width,height)
-
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>750</x>
-      <y>340</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>750</x>
-      <y>400</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>750</x>
-      <y>340</y>
-      <w>270</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>250.0;30.0;250.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>750</x>
-      <y>340</y>
-      <w>150</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>130.0;30.0;130.0;20.0;10.0;20.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>720</x>
-      <y>430</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>490</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>tWait TO
-SELF
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width-18,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width-18,height)
-drawLine(width,height/2,width-18,0)
-drawLine(width,height/2,width-18,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>550</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>running
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>990</x>
-      <y>520</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>840</x>
-      <y>430</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mPing TO
-pPong
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width-18,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width-18,height)
-drawLine(width,height/2,width-18,0)
-drawLine(width,height/2,width-18,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>840</x>
-      <y>490</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>running
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>870</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>870</x>
-      <y>400</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>1070</x>
-      <y>500</y>
-      <w>70</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>delay = 1s
-halign=left
-valign=top
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1030</x>
-      <y>500</y>
-      <w>60</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>100</y>
-      <w>80</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Start
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,30,height,90,180,true)
-drawArc(width-30,0,30,height,-90,180,true)
-drawLine(15,0,width-15,0)
-drawLine(15,height,width-15,height)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>210</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>960</x>
-      <y>150</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mStart TO
-pPing
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width-18,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width-18,height)
-drawLine(width,height/2,width-18,0)
-drawLine(width,height/2,width-18,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>990</x>
-      <y>120</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>990</x>
-      <y>180</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>460</x>
-      <y>610</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>430</x>
-      <y>590</y>
-      <w>80</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Start
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,30,height,90,180,true)
-drawArc(width-30,0,30,height,-90,180,true)
-drawLine(15,0,width-15,0)
-drawLine(15,height,width-15,height)
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>430</x>
-      <y>640</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>450</x>
-      <y>330</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>590</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>620</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>340</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>650</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mPing
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width,height)
-drawLine(width-18,height/2,width,0)
-drawLine(width-18,height/2,width,height)
-
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>770</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>mPong TO
-pPing
-halign=center
-valign=center
-customelement=
-drawLine(0,0,width-18,0)
-drawLine(0,0,0,height)
-drawLine(0,height,width-18,height)
-drawLine(width,height/2,width-18,0)
-drawLine(width,height/2,width-18,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>570</x>
-      <y>830</y>
-      <w>80</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle
-fontsize=18
-halign=center
-valign=center
-customelement=
-drawArc(0,0,width/10,height,90,180,true)
-drawArc(width-width/10,0,width/10,height,-90,180,true)
-drawLine(width/20,0,width-width/20,0)
-drawLine(width/20,height,width-width/20,height)
-
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>800</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>560</x>
-      <y>710</y>
-      <w>100</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>fontsize=18
-type=actclass
-showPing
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>930</x>
-      <y>60</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>*Env Process*
-fontsize=14
-lw=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>950</x>
-      <y>430</y>
-      <w>110</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>type=actclass
-showPong
-fontsize=18
-		</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>400</x>
-      <y>270</y>
-      <w>140</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>*pPing Process*
-fontsize=14
-lw=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>390</x>
-      <y>50</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>*Main Block*
-fontsize=14
-lw=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>410</x>
-      <y>550</y>
-      <w>140</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>*pPong Process*
-fontsize=14
-lw=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>990</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>990</x>
-      <y>400</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>680</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>600</x>
-      <y>740</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>810</x>
-      <y>690</y>
-      <w>90</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>idle</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>960</x>
-      <y>690</y>
-      <w>90</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>running</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>890</x>
-      <y>690</y>
-      <w>90</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>750</x>
-      <y>700</y>
-      <w>20</w>
-      <h>20</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>760</x>
-      <y>700</y>
-      <w>70</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>890</x>
-      <y>710</y>
-      <w>90</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>730</x>
-      <y>640</y>
-      <w>240</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>*pPing Process UML State Machine*
-fontsize=14
-lw=0</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1010</x>
-      <y>700</y>
-      <w>80</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-</panel_attributes>
-    <additional_attributes>40.0;10.0;60.0;10.0;60.0;50.0;10.0;50.0;10.0;30.0</additional_attributes>
-  </element>
-</diagram>
+drawLine(10,5,width-10,5)
+drawLine(5,10,5,height-10)
+drawLine(width-5,10,width-5,height-10)
+drawLine(10,height-5,width-10,height-5)
+drawLine(5,10,10,5)
+drawLine(width-10,5,width-5,10)
+drawLine(width-5,height-10,width-10,height-5)
+drawLine(10,height-5,5,height-10)
+		
+group=1</panel_attributes><additional_attributes></additional_attributes></element></diagram>
