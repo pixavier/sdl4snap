@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text></help_text><element><id>Text</id><coordinates><x>120</x><y>40</y><w>80</w><h>40</h></coordinates><panel_attributes>Env
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text></help_text><element><id>Text</id><coordinates><x>80</x><y>91</y><w>80</w><h>40</h></coordinates><panel_attributes>Env
 fontsize=18
 halign=center
 valign=center
@@ -12,7 +12,7 @@ drawLine(width-8,0,width,8)
 drawLine(width,height-8,width-8,height)
 drawLine(8,height,0,height-8)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>280</x><y>40</y><w>80</w><h>40</h></coordinates><panel_attributes>pPing
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>240</x><y>91</y><w>80</w><h>40</h></coordinates><panel_attributes>pPing
 fontsize=18
 halign=center
 valign=center
@@ -26,7 +26,7 @@ drawLine(width-8,0,width,8)
 drawLine(width,height-8,width-8,height)
 drawLine(8,height,0,height-8)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>280</x><y>160</y><w>80</w><h>40</h></coordinates><panel_attributes>pPong
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>240</x><y>211</y><w>80</w><h>40</h></coordinates><panel_attributes>pPong
 fontsize=18
 halign=center
 valign=center
@@ -40,17 +40,17 @@ drawLine(width-8,0,width,8)
 drawLine(width,height-8,width-8,height)
 drawLine(8,height,0,height-8)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>40</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=&lt;-&gt;
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>91</y><w>110</w><h>50</h></coordinates><panel_attributes>lt=&lt;-&gt;
 m1=
 m2=[mStart]
 
-		</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>70</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;-&gt;
+		</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>121</y><w>70</w><h>110</h></coordinates><panel_attributes>lt=&lt;-&gt;
 m1=[mPing]
 m2=[mPong]
 
-		</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>40</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+		</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>91</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 m1=[mStart, mStop]
-		</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Text</id><coordinates><x>120</x><y>260</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+		</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Text</id><coordinates><x>90</x><y>331</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
 fontsize=18
 halign=center
 valign=center
@@ -59,7 +59,7 @@ drawArc(0,0,30,height,90,180,true)
 drawArc(width-30,0,30,height,-90,180,true)
 drawLine(15,0,width-15,0)
 drawLine(15,height,width-15,height)
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>120</x><y>310</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>90</x><y>381</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -69,7 +69,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>560</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>260</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>731</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>331</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -79,7 +79,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>320</y><w>90</w><h>40</h></coordinates><panel_attributes>mStart
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>391</y><w>90</w><h>40</h></coordinates><panel_attributes>mStart
 fontsize=18
 halign=center
 valign=center
@@ -91,7 +91,7 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>380</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>451</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
 pPong
 halign=center
 valign=center
@@ -102,7 +102,7 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>350</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>440</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>421</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>511</y><w>80</w><h>40</h></coordinates><panel_attributes>running
 fontsize=18
 halign=center
 valign=center
@@ -112,7 +112,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>410</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>420</x><y>260</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>481</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>380</x><y>331</y><w>80</w><h>40</h></coordinates><panel_attributes>running
 fontsize=18
 halign=center
 valign=center
@@ -122,7 +122,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>420</x><y>320</y><w>90</w><h>40</h></coordinates><panel_attributes>mStop
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>520</x><y>391</y><w>90</w><h>40</h></coordinates><panel_attributes>mStop
 fontsize=18
 halign=center
 valign=center
@@ -134,7 +134,7 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>320</y><w>90</w><h>40</h></coordinates><panel_attributes>mPong
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>380</x><y>391</y><w>90</w><h>40</h></coordinates><panel_attributes>mPong
 fontsize=18
 halign=center
 valign=center
@@ -146,7 +146,7 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>320</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>391</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait
 fontsize=18
 halign=center
 valign=center
@@ -158,7 +158,7 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>290</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>350</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>290</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>250;30;250;20;10;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>290</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>130;30;130;20;10;20;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>420</x><y>380</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>361</y><w>170</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>150;30;150;20;10;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>421</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>361</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>371</y><w>230</w><h>40</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>210;20;210;10;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>520</x><y>451</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -168,7 +168,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>440</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait TO
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>380</x><y>511</y><w>80</w><h>40</h></coordinates><panel_attributes>tWait TO
 SELF
 halign=center
 valign=center
@@ -179,7 +179,7 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>500</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>380</x><y>571</y><w>80</w><h>40</h></coordinates><panel_attributes>running
 fontsize=18
 halign=center
 valign=center
@@ -189,7 +189,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>470</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>380</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>541</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>451</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing TO
 pPong
 halign=center
 valign=center
@@ -200,7 +200,7 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>540</x><y>440</y><w>80</w><h>40</h></coordinates><panel_attributes>running
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>630</x><y>511</y><w>80</w><h>40</h></coordinates><panel_attributes>running
 fontsize=18
 halign=center
 valign=center
@@ -210,7 +210,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>410</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>350</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>760</x><y>450</y><w>70</w><h>20</h></coordinates><panel_attributes>delay = 1s
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>481</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>421</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>490</x><y>521</y><w>70</w><h>20</h></coordinates><panel_attributes>delay = 1s
 halign=left
 valign=top
 customelement=
@@ -218,7 +218,7 @@ drawLine(0,0,width,0)
 drawLine(0,0,0,height)
 drawLine(0,height,width,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>450</y><w>50</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;30;10</additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>50</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>521</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Text</id><coordinates><x>620</x><y>91</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
 fontsize=18
 halign=center
 valign=center
@@ -227,7 +227,7 @@ drawArc(0,0,30,height,90,180,true)
 drawArc(width-30,0,30,height,-90,180,true)
 drawLine(15,0,width-15,0)
 drawLine(15,height,width-15,height)
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>160</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>620</x><y>201</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -237,7 +237,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>660</x><y>100</y><w>80</w><h>40</h></coordinates><panel_attributes>mStart TO
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>620</x><y>141</y><w>80</w><h>40</h></coordinates><panel_attributes>mStart TO
 pPing
 halign=center
 valign=center
@@ -248,7 +248,7 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>70</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>130</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>560</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>540</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>111</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>171</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>731</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>90</x><y>711</y><w>80</w><h>30</h></coordinates><panel_attributes>Start
 fontsize=18
 halign=center
 valign=center
@@ -257,7 +257,7 @@ drawArc(0,0,30,height,90,180,true)
 drawArc(width-30,0,30,height,-90,180,true)
 drawLine(15,0,width-15,0)
 drawLine(15,height,width-15,height)
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>130</x><y>590</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>90</x><y>761</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -267,7 +267,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>150</x><y>280</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>540</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>351</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>711</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -277,7 +277,7 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>570</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>290</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>600</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>741</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>361</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>771</y><w>80</w><h>40</h></coordinates><panel_attributes>mPing
 fontsize=18
 halign=center
 valign=center
@@ -289,7 +289,7 @@ drawLine(width-18,height/2,width,0)
 drawLine(width-18,height/2,width,height)
 
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>720</y><w>80</w><h>40</h></coordinates><panel_attributes>mPong TO
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>891</y><w>80</w><h>40</h></coordinates><panel_attributes>mPong TO
 pPing
 halign=center
 valign=center
@@ -300,7 +300,7 @@ drawLine(0,height,width-18,height)
 drawLine(width,height/2,width-18,0)
 drawLine(width,height/2,width-18,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>270</x><y>780</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>230</x><y>951</y><w>80</w><h>40</h></coordinates><panel_attributes>idle
 fontsize=18
 halign=center
 valign=center
@@ -310,23 +310,23 @@ drawArc(width-width/10,0,width/10,height,-90,180,true)
 drawLine(width/20,0,width-width/20,0)
 drawLine(width/20,height,width-width/20,height)
 
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>750</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>660</y><w>150</w><h>40</h></coordinates><panel_attributes>fontsize=18
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>921</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>831</y><w>150</w><h>40</h></coordinates><panel_attributes>fontsize=18
 type=actclass
 animTo("pPing")
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>10</y><w>140</w><h>30</h></coordinates><panel_attributes>*Env Process*
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>51</y><w>140</w><h>30</h></coordinates><panel_attributes>*Env Process*
 fontsize=14
-lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>380</y><w>160</w><h>40</h></coordinates><panel_attributes>type=actclass
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>451</y><w>160</w><h>40</h></coordinates><panel_attributes>type=actclass
 animTo("pPong")
 fontsize=18
-		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>220</y><w>140</w><h>20</h></coordinates><panel_attributes>*pPing Process*
+		</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>291</y><w>140</w><h>20</h></coordinates><panel_attributes>*pPing Process*
 fontsize=14
-lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>0</y><w>140</w><h>30</h></coordinates><panel_attributes>*Main Block*
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>51</y><w>140</w><h>30</h></coordinates><panel_attributes>*Main Block*
 fontsize=14
-lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>110</x><y>500</y><w>140</w><h>30</h></coordinates><panel_attributes>*pPong Process*
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>671</y><w>140</w><h>30</h></coordinates><panel_attributes>*pPong Process*
 fontsize=14
-lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>410</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>690</x><y>350</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>630</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>690</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>560</x><y>660</y><w>90</w><h>40</h></coordinates><panel_attributes>fontsize=18
-idle</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>710</x><y>660</y><w>90</w><h>40</h></coordinates><panel_attributes>fontsize=18
-running</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>660</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>500</x><y>670</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>670</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>680</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>500</x><y>610</y><w>240</w><h>30</h></coordinates><panel_attributes>*pPing Process UML State Machine*
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>481</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>421</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>801</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>861</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>440</x><y>721</y><w>90</w><h>40</h></coordinates><panel_attributes>fontsize=18
+idle</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>590</x><y>721</y><w>90</w><h>40</h></coordinates><panel_attributes>fontsize=18
+running</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>721</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>390</x><y>731</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>731</y><w>60</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;40;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>741</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>70;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>671</y><w>240</w><h>30</h></coordinates><panel_attributes>*pPing Process UML State Machine*
 fontsize=14
-lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>670</y><w>80</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
+lw=0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>731</y><w>80</w><h>70</h></coordinates><panel_attributes>lt=-&gt;
 </panel_attributes><additional_attributes>40;10;60;10;60;50;10;50;10;30</additional_attributes></element></diagram>
