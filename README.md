@@ -47,4 +47,5 @@ SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [
 
 [MQTT](https://en.wikipedia.org/wiki/MQTT) based systems can be combined with other protocols like [HTTP-REST](https://en.wikipedia.org/wiki/Representational_state_transfer) or [OPC-UA](https://opcfoundation.org/resources/brochures) with another no/low-code tools like [Node-RED](https://nodered.org).
 
+SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)] (https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference.
 
