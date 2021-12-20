@@ -39,7 +39,7 @@ Here you can see the Snap *!* translation of the PingPong example:
 
 ### Using PubSub architecture to support distributed messaging
 
-The scheme of processes communication is described in the classic SDL Forum [SDL-88 Tutorial](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial.
+The scheme of processes communication is described in the classic SDL Forum [SDL-88 Tutorial](https://www.sdl-forum.org/sdl88tutorial/4.ProcessCommunication/4.1_Signal_input_queue.htm) SDL Tutorial, as it is shown in the following picture:
  
 ![Process communication](img/ProcessCommunication.png)
 
