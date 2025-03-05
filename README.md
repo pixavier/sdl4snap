@@ -51,4 +51,4 @@ SDL4Snap *!*  was [presented (video available)](https://www.youtube.com/watch?v=
 
 SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622).
 
-Theye are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io).
+They are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io).
