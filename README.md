@@ -53,6 +53,6 @@ SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [
 
 SDL4Snap *!*  was [presented (video available)](https://www.youtube.com/watch?v=SW-g62MUu2g) in the [Snap!con 2021](https://www.snapcon.org/conferences/2021/program/proposals/276) Conference.
 
-SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622), as part of the [UPC repository](https://upcommons.upc.edu/entities/publication/d7b6214f-bd17-419b-b7b6-4bd8d21b0f12).
+SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622), indexed in the [UPC repository](https://upcommons.upc.edu/entities/publication/d7b6214f-bd17-419b-b7b6-4bd8d21b0f12).
 
 They are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io), that can be used with examples like [this](https://sdlps.com/Experiments/ModelDocsPng/2025).
