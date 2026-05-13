@@ -36,7 +36,8 @@ Here you can see the Snap *!* translation of the PingPong example:
 
 ### Statistics library
 
-SDL4Snap! can be combined with a statistics lib like [this](https://xavierpi.com/ejemplos/StatisticsLib.xml).
+SDL4Snap *!* can be combined with a statistics lib like [this](https://xavierpi.com/ejemplos/StatisticsLib.xml), that can be included with File->Import.
+Note that this library needs to activate the Snap *!* JavaScript Extensions.
 
 ### Using PubSub architecture to support distributed messaging
 
