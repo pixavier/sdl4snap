@@ -34,6 +34,9 @@ Here you can see the Snap *!* translation of the PingPong example:
 
 ![Ping Pong Snap *!* implementation](img/ping_pong_snap.png)
 
+### Statistics library
+
+SDL4Snap! can be combined with a statistics lib like [this](https://xavierpi.com/ejemplos/StatisticsLib.xml).
 
 ### Using PubSub architecture to support distributed messaging
 
