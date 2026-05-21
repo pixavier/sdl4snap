@@ -1,10 +1,12 @@
 # SDL4Snap *!*
 
-SDL4Snap *!*  is a [Snap *!*  library](https://xavierpi.com/ejemplos/sdl4snap.xml) with a minimal implementation of the modeling [Specification and Description Language (SDL)](https://www.sdl-forum.org/languages/sdl.php) in [Snap *!*](http://snap.berkeley.edu).
+SDL4Snap *!*  is a [Snap *!*  library](https://xavierpi.com/ejemplos/sdl4snap2.xml) with a minimal implementation of the modeling [Specification and Description Language (SDL)](https://www.sdl-forum.org/languages/sdl.php) in [Snap *!*](http://snap.berkeley.edu).
 
 Yoy can find an introduction to SDL [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/SpecificationAndDescriptionLanguageForDiscreteSimulation.pdf), a tutorial (vintage) [here](https://www.sdl-forum.org/sdl88tutorial/index.html), an introduction to modeling with SDL [here](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/SimulationModelsFormalization.pdf), and a minimal SDL mono-agent model [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL_min.xml).
 
-## Try it at: [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong.xml)
+## Try it at: [Hello World!](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong2.xml)
+
+### [Hello World! - Previous version](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/SDL2Snap-PingPong2.xml)
 
 The PingPong example, inspired by the [Pragmadev Ping Pong example](img/ping_pong_pragmadev.png), can be considered the ["Hello World"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) of a SDL multi-agent system. 
 
@@ -54,5 +56,7 @@ SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [
 SDL4Snap *!*  was [presented (video available)](https://www.youtube.com/watch?v=SW-g62MUu2g) in the [Snap!con 2021](https://www.snapcon.org/conferences/2021/program/proposals/276) Conference.
 
 SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622), indexed in the [UPC repository](https://upcommons.upc.edu/entities/publication/d7b6214f-bd17-419b-b7b6-4bd8d21b0f12).
+
+Classical examples like MM2 queues can be implemented with SDL4Snap */*. [Here](https://sdlps.com/Experiments/ModelDocsPng/2025) is the specification, and [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/MM2.xml) the implementation.
 
 They are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io), that can be used with examples like [this](https://sdlps.com/Experiments/ModelDocsPng/2025).
