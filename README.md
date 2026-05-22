@@ -57,6 +57,6 @@ SDL4Snap *!*  was [presented (video available)](https://www.youtube.com/watch?v=
 
 SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622), indexed in the [UPC repository](https://upcommons.upc.edu/entities/publication/d7b6214f-bd17-419b-b7b6-4bd8d21b0f12).
 
-Classic examples like MM2 queues can be implemented with SDL4Snap *!*. [Here](https://sdlps.com/Experiments/ModelDocsPng/2025) is the specification, and [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/MM2.xml) is the implementation. There is also a microworld version with a low-code panel and a visualization charts panel [here](https://xavierpi.com/mm2). 
+Classic examples like MM2 queues can be implemented with SDL4Snap *!*. [Here](https://sdlps.com/Experiments/ModelDocsPng/2025) is the specification, and [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/MM2.xml) is the implementation. There is also a microworld version with a low-code panel and an AI generated visualization charts panel [here](https://xavierpi.com/mm2). 
 
 They are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io), that can be used with examples like [this](https://sdlps.com/Experiments/ModelDocsPng/2025).
