@@ -53,10 +53,11 @@ SDL4Snap *!* can use MQTT to support distributed messaging over a network. The [
 
 [MQTT](https://www.hivemq.com/info/mqtt-essentials/) based systems can be combined with other protocols like [HTTP](https://www.geeksforgeeks.org/blogs/http-full-form/) or [OPC-UA](https://opcfoundation.org/resources/brochures) with another no/low-code tools like [Node-RED](https://nodered.org).
 
-SDL4Snap *!*  was [presented (video available)](https://www.youtube.com/watch?v=SW-g62MUu2g) in the [Snap!con 2021](https://www.snapcon.org/conferences/2021/program/proposals/276) Conference.
+SDL4Snap *!*  was [presented (video)](https://www.youtube.com/watch?v=SW-g62MUu2g) in the [Snap!con 2021](https://www.snapcon.org/conferences/2021/program/proposals/276) Conference.
 
 SDL4Snap *!*  was presented in the [SAM 2021 (MODELS 2021)](https://sdl-forum.org/Events/SAM2021/acceptedpapers.htm) Conference, with the paper ["Combining Low-Code Programming and SDL-Based Modeling with Snap! in the Industry 4.0 Context"](https://ieeexplore.ieee.org/document/9643622), indexed in the [UPC repository](https://upcommons.upc.edu/entities/publication/d7b6214f-bd17-419b-b7b6-4bd8d21b0f12).
 
-Classic examples like MM2 queues can be implemented with SDL4Snap *!*. [Here](https://sdlps.com/Experiments/ModelDocsPng/2025) is the specification, and [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/MM2.xml) is the implementation. There is also a version with a low-code panel and an AI generated visualization ApexCharts based panel [here](https://xavierpi.com/mm2). 
+Classic examples like MM2 queues can be implemented with SDL4Snap *!*. [Here](https://sdlps.com/Experiments/ModelDocsPng/2025) is the specification, and [here](https://snap.berkeley.edu/snap/snap.html#open:https://raw.githubusercontent.com/pixavier/sdl4snap/master/examples/MM2.xml) is the implementation. There is also a version with a low-code panel and an AI generated visualization ApexCharts based panel [here](https://xavierpi.com/mm2) ([video](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/sdl4snap_mm2.mp4
+)). 
 
 They are other online diagram tools like [diagrams.net](https://app.diagrams.net) (formerly draw.io), that can be used with examples like [this](https://sdlps.com/Experiments/ModelDocsPng/2025).
