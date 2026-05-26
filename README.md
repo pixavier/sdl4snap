@@ -36,6 +36,10 @@ Here you can see the Snap *!* translation of the PingPong example:
 
 ![Ping Pong Snap *!* implementation](img/ping_pong_snap.png)
 
+### Starred blocks
+
+In the previous example, we can see two blocks that we can call starred: the “SDL start” block and the “SDL set state” block. If we have multiple starting threads (green flags), the starred “SDL start” block should appear in only one of them, since it performs general system initialization; duplicating it can cause problems. On the other hand, there are the starred “SDL set state” blocks, in which case the logic is the opposite: there can only be one unstarred block in a starting thread (green flag), whereas in the rest of the model, all of them must be unstarred.
+
 ### Statistics library
 
 SDL4Snap *!* can be combined with a statistics lib like [this](https://xavierpi.com/ejemplos/StatisticsLib.xml), that can be included with File->Import.
