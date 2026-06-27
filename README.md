@@ -26,7 +26,7 @@ If you only want to import the SDL palette into [UMLetino](https://www.umletino.
 
 ## Usage and blocks
 
-Start from the HelloWorld example, and delete the blocks you will not use. Each agent (sprite) has some atributes (local variables) that are needed by the SDL engine, such as "SDL state". The approach is systematic SDL translation to a programming language, as explained in "[Implementing from SDL](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/Sanders_ImplementingFromSDL.pdf)".
+Start from the HelloWorld example, and delete the blocks you will not use. Each agent (sprite) has attributes (local variables) that the SDL engine needs, such as "SDL state". The approach is a systematic translation of SDL into a programming language, as in the early days ([Saracco](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/Saracco_The_CCITT_SpecificationAndDescriptionLanguage.pdf)) and more recently ([Trossen](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/Trossen_FrameworkForAutomatic_SDL_to_C++_Translation.pdf)) and [Sanders](https://raw.githubusercontent.com/pixavier/sdl4snap/master/docs/Sanders_ImplementingFromSDL.pdf)).
 
 To create new processes, duplicate a similar one instead creating it from scratch.
 
